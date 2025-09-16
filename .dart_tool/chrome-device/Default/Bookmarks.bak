@@ -1,0 +1,84 @@
+{
+   "checksum": "259befcf5ce72c9ee67935d76cc90e5a",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13024851518103515",
+            "date_last_used": "0",
+            "guid": "fab1e7de-a374-4bf0-8047-4e5952c3b7fc",
+            "id": "8",
+            "name": "Suggested Sites",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "https://ieonline.microsoft.com/#ieslice",
+            "visit_count": 0
+         }, {
+            "date_added": "13096505554162125",
+            "date_last_used": "0",
+            "guid": "5ff65f34-9955-4940-afd6-abda8dcc4a00",
+            "id": "9",
+            "name": "Tab mới",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "chrome://newtab/",
+            "visit_count": 0
+         } ],
+         "date_added": "13383032157646361",
+         "date_last_used": "0",
+         "date_modified": "13096505554162125",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13383032157646363",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13120670725044741",
+            "date_last_used": "0",
+            "guid": "c99af9c8-d38e-4320-a7e9-a5740aee1d6f",
+            "id": "6",
+            "name": "API - youtube2mp3.cc",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "https://www.youtube2mp3.cc/api/#conversion",
+            "visit_count": 0
+         }, {
+            "date_added": "13121965153727083",
+            "date_last_used": "0",
+            "guid": "1c5b5999-a500-4342-9e44-8bd80bbf75bb",
+            "id": "7",
+            "name": "Lịch sử",
+            "show_icon": false,
+            "source": "unknown",
+            "type": "url",
+            "url": "chrome://history/",
+            "visit_count": 0
+         } ],
+         "date_added": "13383032157646364",
+         "date_last_used": "0",
+         "date_modified": "13121965153727083",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CkEKHgiIgQISCGCxFtSUAQAAKg4QABgBIAAoBjAAOABAABIAKhhDK2YxajVHYWEyNlFEeGx6Q3FKL0ZBPT1IA6AGDBKsAQgJEqcBChxjelZqSXdmdFpJNW9QNGV5cXBRVzBma042djA9EiQ1ZmY2NWYzNC05OTU1LTQ5NDAtYWZkNi1hYmRhOGRjYzRhMDAYACAAKAAw/KDaqKIxOICn2qiiMUCAp9qoojFKHHRobS9OYkFEWGI3RjZ4WjBoNWVYZmZNVzh1Yz1aHiIcdG9rVnBBTytUNGt5VWVldDlNcUg3T2kwczg4PWUAAAAAwj4CYAASrAEICBKnAQocYnoyVEJPelNDQU9vWUtvQUpid2tWREZPYnlzPRIkZmFiMWU3ZGUtYTM3NC00YmYwLTgwNDctNGU1OTUyYzNiN2ZjGAAgACgAMMuIs+G1MTjkptqoojFA5KbaqKIxShx4L0RIZ0cwNEVicDRHNHp1MExVRlVKUTQrcU09Wh4iHDYwdU9nV29GZmhiWDVjRWhwTGdVRk02cDhHaz1lex49psI+AmAAEqwBCAcSpwEKHHVJOXlhRGFRVU9SU1NCUFZhNjVrSit5ZFJ4az0SJDFjNWI1OTk5LWE1MDAtNDM0Mi05ZTQ0LThiZDgwYmJmNzViYhgAIAAoADD6oNqoojE4rqbaqKIxQK6m2qiiMUocNFdUalgxZUE1OUhYRnR3MzQ1MkhoRG5PSkFjPVoeIhxtemJCUkc5Y2VZbGljalAxT3JCQXkzN1loVnc9ZQAAAADCPgJgABKOAQgCEokBChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EiQ5OWNkOGQ4Ni1mOWFhLTVlOTgtYTlmYy1mNjAwNmMxM2M5MGQYACAAKAAw9oyiqKIxOKqSoqiiMUCqkqKoojFKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAwj4CYAASrAEIBhKnAQocRU1LYmpZeGpPY2ZZMFBzUVVZNVFGUEgwV1p3PRIkYzk5YWY5YzgtZDM4ZS00MzIwLWE3ZTktYTU3NDBhZWUxZDZmGAAgACgAMPmg2qiiMTiIptqoojFAiKbaqKIxShxCZng5Tk5kTm5UUmtQVmJWQW9lQ2hhYmJ6YTQ9Wh4iHGdjOTkwK0w1RjZXV1RpeGVTZ2VIQVI3NFNhbz1lVF9XRsI+AmAAEo4BCAESiQEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0SJGFkMDhhY2ExLWVhODYtNTNkMC05NDU1LTZiMzUzNjNjYTFjYRgAIAAoADD1jKKoojE4kJKiqKIxQJCSoqiiMUocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAADCPgJgABKOAQgDEokBChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiRjNDBlNGM3My0zYzI3LTUxZTQtYjVmYy00YzVlZTUyNTg1Y2MYACAAKAAw+4yiqKIxONySoqiiMUDckqKoojFKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAwj4CYAAwADgA",
+   "version": 1
+}

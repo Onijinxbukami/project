@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "auth-1d805",
+    "dev": "biz4x-remittance"
+  },
+  "targets": {},
+  "etags": {}
+}

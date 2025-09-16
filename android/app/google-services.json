@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1045583437831",
+    "project_id": "biz4x-remittance",
+    "storage_bucket": "biz4x-remittance.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045583437831:android:c5f2638d558d4c9f8a4aa2",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045583437831-435og125lq6kn1ifiq5l8j4ni3fjndi2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6K2mvRqZAAvq0VMA0jf_-QbyGWA4rUSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1045583437831-435og125lq6kn1ifiq5l8j4ni3fjndi2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

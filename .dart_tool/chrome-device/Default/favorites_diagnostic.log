@@ -1,0 +1,34 @@
+2025-02-03 04:55:57.824: [INFO] VisibilityChanged: 0
+2025-02-03 04:55:57.858: [INFO] RecordSyncInitDurationhas_sync_been_enabled: 0 state: 0
+2025-02-03 04:55:57.858: [INFO] RecordSyncInitDurationhas_sync_been_enabled: 0 state: 0
+2025-02-03 04:55:57.858: [INFO] RecordSyncInitDurationhas_sync_been_enabled: 0 state: 0
+2025-02-03 04:55:57.859: [INFO] RecordSyncInitDurationhas_sync_been_enabled: 0 state: 0
+2025-02-03 04:55:57.859: [INFO] RecordSyncInitDurationhas_sync_been_enabled: 0 state: 0
+2025-02-03 04:55:57.859: [INFO] RecordSyncInitDurationhas_sync_been_enabled: 0 state: 0
+2025-02-03 04:55:57.859: [INFO] RecordSyncInitDurationhas_sync_been_enabled: 0 state: 0
+2025-02-03 04:55:57.859: [INFO] RecordSyncInitDurationhas_sync_been_enabled: 0 state: 0
+2025-02-03 04:55:57.860: [INFO] RecordSyncInitDurationhas_sync_been_enabled: 0 state: 0
+2025-02-03 04:55:57.860: [INFO] RecordSyncInitDurationhas_sync_been_enabled: 0 state: 0
+2025-02-03 04:55:57.860: [INFO] RecordSyncInitDurationhas_sync_been_enabled: 0 state: 0
+2025-02-03 04:55:57.874: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-02-03 04:55:57.874: [INFO] OnDoneLoading sync enabled: 0
+2025-02-03 04:55:57.883: [INFO] RecordSyncInitDurationhas_sync_been_enabled: 0 state: 0
+2025-02-03 04:56:01.018: [INFO] Primary account changed.
+2025-02-03 04:56:01.018: [INFO] OnPrimaryAccountChangedPrimaryAccountChangeEvent::Type::kSet
+2025-02-03 04:56:01.020: [INFO] RecordSyncInitDurationhas_sync_been_enabled: 0 state: 3
+2025-02-03 04:56:01.022: [INFO] RecordSyncInitDurationhas_sync_been_enabled: 0 state: 3
+2025-02-03 04:56:01.099: [INFO] RecordSyncInitDurationhas_sync_been_enabled: 0 state: 3
+2025-02-03 04:56:04.318: [INFO] VisibilityChanged: 1
+2025-02-03 04:56:04.461: [INFO] BookmarkNodeAdded, ABU: 0
+2025-02-03 04:56:04.461: [INFO] BookmarkNodeAdded, ABU: 0
+2025-02-03 04:56:04.461: [INFO] BookmarkNodeAdded, ABU: 0
+2025-02-03 04:56:04.461: [INFO] BookmarkNodeAdded, ABU: 0
+2025-02-03 04:56:05.551: [INFO] Sync initialization duration: 4337ms
+2025-02-03 05:07:11.386: [INFO] VisibilityChanged: 0
+2025-02-03 06:08:02.895: [INFO] OnDoneLoading sync enabled: 0
+2025-02-03 06:08:45.029: [INFO] VisibilityChanged: 0
+2025-02-05 03:15:37.921: [INFO] OnDoneLoading sync enabled: 0
+2025-02-05 03:15:40.447: [INFO] Primary account changed.
+2025-02-05 03:15:40.447: [INFO] OnPrimaryAccountChangedPrimaryAccountChangeEvent::Type::kSet
+2025-02-05 03:15:44.040: [INFO] Sync initialization duration: 6117ms
+2025-02-05 03:16:57.482: [INFO] VisibilityChanged: 0

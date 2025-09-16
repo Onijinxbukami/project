@@ -1,0 +1,68 @@
+{
+   "checksum": "0270a1ac5207e4e1e3f516e66b3f1bcd",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13024851518103515",
+            "date_last_used": "0",
+            "guid": "fab1e7de-a374-4bf0-8047-4e5952c3b7fc",
+            "id": "8",
+            "name": "Suggested Sites",
+            "type": "url",
+            "url": "https://ieonline.microsoft.com/#ieslice"
+         }, {
+            "date_added": "13096505554162125",
+            "date_last_used": "0",
+            "guid": "5ff65f34-9955-4940-afd6-abda8dcc4a00",
+            "id": "9",
+            "name": "Tab mới",
+            "type": "url",
+            "url": "chrome://newtab/"
+         } ],
+         "date_added": "13383032157646361",
+         "date_last_used": "0",
+         "date_modified": "13096505554162125",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13383032157646363",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13120670725044741",
+            "date_last_used": "0",
+            "guid": "c99af9c8-d38e-4320-a7e9-a5740aee1d6f",
+            "id": "6",
+            "name": "API - youtube2mp3.cc",
+            "type": "url",
+            "url": "https://www.youtube2mp3.cc/api/#conversion"
+         }, {
+            "date_added": "13121965153727083",
+            "date_last_used": "0",
+            "guid": "1c5b5999-a500-4342-9e44-8bd80bbf75bb",
+            "id": "7",
+            "name": "Lịch sử",
+            "type": "url",
+            "url": "chrome://history/"
+         } ],
+         "date_added": "13383032157646364",
+         "date_last_used": "0",
+         "date_modified": "13121965153727083",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

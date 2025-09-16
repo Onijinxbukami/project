@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="flutter_application_1">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>flutter_application_1</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    const serviceWorkerVersion = "3945690004";
+  </script>
+<script async defer 
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlo98WKmqmQT-sSLLdFv97GTmns6tOG_0&libraries=places">
+</script>
+
+ 
+
+  <!-- Firebase Configuration -->
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyDU98BQTD0XpBRXWcGsuvkO4qqYx3EbHRU",
+      authDomain: "biz4x-remittance.firebaseapp.com",
+      projectId: "biz4x-remittance",
+      storageBucket: "biz4x-remittance.appspot.com",
+      messagingSenderId: "1045583437831",
+      appId: "1:1045583437831:web:740ba6db06460e448a4aa2",
+      measurementId: "G-40LT8Y4CMS"
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <!-- Firebase Scripts -->
+  <script src="https://www.gstatic.com/firebasejs/10.3.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.3.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.3.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.3.0/firebase-storage.js"></script>
+  <script src="https://apis.google.com/js/api.js" async defer></script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+  <!-- Initialize GAPI and Google Sign-In -->
+  <script>
+    function initGoogleClient() {
+      gapi.load('client:auth2', () => {
+        gapi.client.init({
+          apiKey: firebaseConfig.apiKey,
+          clientId: '1045583437831-435og125lq6kn1ifiq5l8j4ni3fjndi2.apps.googleusercontent.com',
+          scope: 'email profile openid',
+        }).then(() => {
+          gapi.auth2.init().then(() => {
+            console.log('GAPI client and Auth initialized.');
+            checkUserStatus();
+          });
+        }).catch((error) => {
+          console.error('Error loading GAPI client:', error);
+        });
+      });
+    }
+
+    function checkUserStatus() {
+      const auth2 = gapi.auth2.getAuthInstance();
+      if (auth2.isSignedIn.get()) {
+        const googleUser = auth2.currentUser.get();
+        const idToken = googleUser.getAuthResponse().id_token;
+        firebase.auth().signInWithCredential(
+          firebase.auth.GoogleAuthProvider.credential(idToken)
+        ).then((userCredential) => {
+          console.log('Firebase signed in:', userCredential.user);
+          accessFirestore();
+        }).catch((error) => {
+          console.error('Firebase sign in error:', error);
+        });
+      } else {
+        console.log('User is not signed in.');
+      }
+    }
+
+    function accessFirestore() {
+      firebase.firestore().collection('your-collection-name').get()
+        .then((snapshot) => {
+          snapshot.forEach((doc) => {
+            console.log(doc.id, " => ", doc.data());
+          });
+        }).catch((error) => {
+          console.error('Firestore access error:', error);
+        });
+    }
+
+    window.onload = function() {
+      gapi.load('auth2', initGoogleClient);
+    };
+  </script>
+   <script>
+window.fbAsyncInit = function() {
+  FB.init({
+    appId      : '1138420431027567', // Thay thế bằng appId của bạn
+    cookie     : true,
+    xfbml      : true,
+    version    : 'v12.0'
+  });
+
+  console.log("Facebook SDK đã khởi tạo thành công!");
+  window.facebookSDKReady = true;
+
+  // Kiểm tra trạng thái đăng nhập của người dùng
+  FB.getLoginStatus(function(response) {
+    if (response.status === 'connected') {
+      console.log('User is already logged in');
+      var accessToken = response.authResponse.accessToken;
+      // Đăng nhập Firebase với accessToken nếu người dùng đã đăng nhập
+      window.flutter_inappwebview.callHandler('facebookLogin', accessToken);
+    } else {
+      console.log('User is not logged in');
+      // Không tự động gọi FB.login() nữa
+      // Chờ người dùng nhấn nút đăng nhập
+    }
+  });
+};
+
+// Thêm mã tải SDK Facebook
+(function(d, s, id){
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "https://connect.facebook.net/en_US/sdk.js";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+  </script>
+  <!-- Flutter Initialization -->
+  <script src="flutter.js" defer></script>
+</head>
+
+<body>
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js and initialize Flutter
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>

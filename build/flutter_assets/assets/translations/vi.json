@@ -1,0 +1,129 @@
+{
+    "hello": "Xin chào",
+    "login": "ĐĂNG NHẬP",
+    "sign_up": "ĐĂNG KÍ",
+    "select_language": "Chọn Ngôn Ngữ",
+    "cancel": "Hủy",
+    "near_me": "Gần tôi",
+    "send": "Chuyển tiền",
+    "setting": "Cài đặt",
+
+    "discover_outlets": "Tìm các cửa hàng gần bạn ",
+    "search_placeholder": "Nhập địa chỉ hoặc mã ZIP ",
+    "no_results": "Không tìm thấy kết quả.",
+
+    "account_details": "Tài khoản",
+    "bank_details": "Ngân hàng",
+    "bank_code": "Mã ngân hàng",
+    "enter_bank_code": "Nhập mã ngân hàng",
+    "bank_name": "Tên ngân hàng",
+    "enter_bank_name": "Nhập tên ngân hàng",
+
+    "bank_number": "Số Tài Khoản Ngân Hàng",
+    "enter_bank_number": "Nhập số tài khoản ngân hàng",
+    "bank_number_required": "Số tài khoản ngân hàng là bắt buộc",
+
+    "update_success": "Cập nhật thành công",
+    "update_failed": "Cập nhật thất bại",
+
+    "user_name": "Tên người dùng",
+    "first_name": "Tên",
+    "last_name": "Họ",
+    "enter_last_name": "Nhập họ của bạn",
+    "enter_username": "Nhập tên người dùng của bạn",
+    "enter_first_name": "Nhập tên của bạn",
+
+    "identification_number": "Số CMND/CCCD",
+    "enter_identification_number": "Nhập số CMND/CCCD của bạn",
+    "passport_number": "Số hộ chiếu",
+    "enter_passport_number": "Nhập số hộ chiếu của bạn",
+    
+    "id_front_photo": "Ảnh mặt trước CMND/CCCD",
+    "id_rear_photo": "Ảnh mặt sau CMND/CCCD",
+    "passport_photo": "Ảnh hộ chiếu",
+    "edit_photo": "Chỉnh sửa ảnh",
+    "remove_photo": "Xóa ảnh",
+    "upload_photo": "Tải ảnh lên",
+    
+    "sender_uploaded_photos": "Ảnh người gửi",
+    "receiver_uploaded_photos": "Ảnh người nhận",
+
+    "nationality": "Quốc tịch",
+    "enter_nationality": "Nhập quốc tịch của bạn",
+
+
+    "address": "Địa chỉ",
+    "enter_address": "Nhập địa chỉ của bạn",
+    "phone_number": "Số điện thoại",
+    "enter_phone_number": "Nhập số điện thoại của bạn",
+    "phone_number_required": "Số điện thoại là bắt buộc",
+    "phone_number_invalid": "Số điện thoại chỉ được chứa số",
+    
+    "email": "Email",
+    "enter_email": "Nhập email của bạn",
+    "email_required": "Email là bắt buộc",
+    "email_invalid": "Vui lòng nhập địa chỉ email hợp lệ",
+    
+    "old_password": "Mật khẩu cũ",
+    "enter_old_password": "Nhập mật khẩu cũ của bạn",
+    "new_password": "Mật khẩu mới",
+    "enter_new_password": "Nhập mật khẩu mới của bạn",
+
+    "update": "Cập nhật",
+    "change_password": "Thay đổi mật khẩu",
+    "logout": "Đăng xuất",
+
+
+    "amount": "Số tiền",
+    "sender": "Người gửi",
+    "recipient": "Người nhận",
+    "review": "Xem lại",
+    "success": "Thành công",
+    "select_outlet": "Chọn đại lý",
+    "you_send": "Gửi",
+    "recipient_gets": "Nhận",
+    "exchange_rate": "Tỷ giá",
+    "exchange_rate_tooltip": "Tỷ giá hối đoái là tỷ lệ trao đổi bạn sẽ nhận được khi gửi tiền.",
+    "fees": "Phí",
+    "total_pay": "Tổng cộng",
+    "enter_amount": "Nhập số tiền",
+    "continue": "Tiếp tục",
+    "submit": "Gửi",
+    "approve": "Chấp thuận",
+    "history": "Lịch sử",
+
+
+    
+    "user_infor": "Thông tin người gửi",
+    "full_name": "Họ và tên đầy đủ",
+    "full_name_hint": "Nhập họ và tên đầy đủ",
+    "full_name_required": "Họ và tên là bắt buộc",
+    "account_name": "Tên tài khoản",
+    "account_name_hint": "Nhập tên tài khoản",
+    "account_name_required": "Tên tài khoản là bắt buộc",
+    
+    "account_number": "Số tài khoản",
+    "account_number_hint": "Nhập số tài khoản",
+    "account_number_required": "Số tài khoản là bắt buộc",
+
+    "bank_swift_code": "Mã Swift Ngân Hàng",
+    "bank_swift_code_hint": "Nhập mã Swift của ngân hàng bạn",
+    "bank_swift_code_required": "⚠️ Vui lòng nhập mã Swift Ngân Hàng!",
+
+    "date_of_birth": "Ngày sinh",
+    "select_date_of_birth": "Chọn ngày sinh của bạn",
+    "transaction_details": "Chi tiết giao dịch",
+    "outlet": "Điểm giao dịch",
+    "rate": "Tỷ giá",
+    "total": "Tổng cộng",
+    
+    "recipient_details": "Chi tiết người nhận",
+    "transaction_approved": "Giao dịch đã được phê duyệt!",
+    "transaction_success": "Giao dịch của bạn đã được xử lý thành công.",
+    "received_at": "Nhận lúc:",
+    "ticket_id": "Mã giao dịch:",
+    "done": "Hoàn tất",
+    "fill_in_all_info": "⚠️ Vui lòng nhập đầy đủ thông tin trước khi tiếp tục!",
+    "info_saved": "✅ Thông tin đã lưu thành công!"
+  }
+  
